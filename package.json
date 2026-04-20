@@ -1,0 +1,61 @@
+{
+  "name": "vtask",
+  "version": "0.0.1",
+  "description": "Lightweight resource and task management library for Vue 3",
+  "keywords": [
+    "vue",
+    "vue3",
+    "resource-management",
+    "task",
+    "async",
+    "api-call",
+    "composition-api",
+    "typescript",
+    "vue-plugin"
+  ],
+  "homepage": "https://github.com/istiuak-0/vtask#readme",
+  "bugs": {
+    "url": "https://github.com/istiuak-0/vtask/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istiuak-0/vtask.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Istiuak",
+    "url": "https://github.com/istiuak-0"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "~5.9.3",
+    "vue": "catalog:"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "packageManager": "pnpm@10.18.0"
+}

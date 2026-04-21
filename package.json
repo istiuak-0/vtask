@@ -1,6 +1,6 @@
 {
-  "name": "vtask",
-  "version": "0.0.1",
+  "name": "taskra",
+  "version": "0.0.3",
   "description": "A simple resource manager for vue 3",
   "type": "module",
   "scripts": {
@@ -14,6 +14,9 @@
       "require": "./dist/index.cjs"
     }
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
